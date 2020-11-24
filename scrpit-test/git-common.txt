@@ -1,0 +1,14 @@
+git init
+git add.
+git commit -a -m .
+git remote add origin  https://github.com/hk-jessliu/scrpit-test.git
+git push -u origin master
+git remote rm origin
+git clone https://github.com/hk-jessliu/scrpit-test.git
+git log
+git rm .
+
+#if u can't git init plz try this common
+rm -rf .git
+#if u cat't create origin plz try this common
+git remote rm origin
