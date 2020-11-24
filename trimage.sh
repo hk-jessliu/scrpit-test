@@ -45,10 +45,10 @@ check_image(){
 	before=$(date -d '3 days ago' "+%m%d")
         before1=$(date -d '1 days ago' "+%m%d")
 	
-       # image_file1=${soure_path}/image.bin.e2900.ewn.${before}"10".id-*.LA
-       # image_file2=${soure_path}/image.bin.e2900.ewn.${before1}"10".id-*.LA
-       # image_file3=${soure_path}/image.bin.e6000.ewn.${before}"10".id-*.LA
-       # image_file4=${soure_path}/image.bin.e6000.ewn.${before1}"10".id-*.LA
+        image_file1=${soure_path}/image.bin.e2900.ewn.${before}"10".id-*.LA
+        image_file2=${soure_path}/image.bin.e2900.ewn.${before1}"10".id-*.LA
+        image_file3=${soure_path}/image.bin.e6000.ewn.${before}"10".id-*.LA
+        image_file4=${soure_path}/image.bin.e6000.ewn.${before1}"10".id-*.LA
 	
 	
 	if [ -f "${soure_path}"/image.bin.e2900.ewn.${before}"10".id-*.LA ];then
