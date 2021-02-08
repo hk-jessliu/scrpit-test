@@ -42,7 +42,7 @@ use_traffic(){
 put_server(){
            
         cd ${Home_path}
-        sudo scp ${Home_path}/traffic.tgz ubuntu@34.247.164.77:/home/ubuntu	
+        sudo scp -i /home/ubuntu/mnt/Public/Jess/demo-joewu@ubuntu.pem ${Home_path}/traffic.tgz ubuntu@34.247.164.77:/home/ubuntu	
 
 }
 
